@@ -1,8 +1,7 @@
 
 <?php
-// ==============================
-// CONFIGURATION
-// ==============================
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 $tap_secret_key = "sk_test_XKokBfNWv6FIYuTMg5sLPjhJ"; // Replace with your Tap Secret Key
 $redirect_url = (isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'] . "?completed=1";
 
