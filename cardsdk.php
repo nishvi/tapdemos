@@ -234,7 +234,7 @@ function startPayment() {
     // INIT TAP CARD SDK
     // ==============================
     card = new Tapjsli('card-sdk', {
-        publicKey: "pk_test_xxx", // Replace
+        publicKey: "pk_test_EtHFV4BuPQokJT6jiROls87Y", // Replace
         merchant: { id: "" },
         transaction: {
             amount: amount,
